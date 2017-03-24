@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0F67651E858D2D0057A45B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F67641E858D2D0057A45B /* AppDelegate.swift */; };
+		3F0F67671E858D2D0057A45B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F67661E858D2D0057A45B /* ViewController.swift */; };
+		3F0F676A1E858D2D0057A45B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F67681E858D2D0057A45B /* Main.storyboard */; };
+		3F0F676D1E858D2D0057A45B /* Hospet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F676B1E858D2D0057A45B /* Hospet.xcdatamodeld */; };
+		3F0F676F1E858D2E0057A45B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F676E1E858D2E0057A45B /* Assets.xcassets */; };
+		3F0F67721E858D2E0057A45B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F0F67701E858D2E0057A45B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F0F67611E858D2D0057A45B /* Hospet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hospet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F67641E858D2D0057A45B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F0F67661E858D2D0057A45B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F0F67691E858D2D0057A45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F0F676C1E858D2D0057A45B /* Hospet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hospet.xcdatamodel; sourceTree = "<group>"; };
+		3F0F676E1E858D2E0057A45B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0F67711E858D2E0057A45B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F0F67731E858D2E0057A45B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0F675E1E858D2D0057A45B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0F67581E858D2D0057A45B = {
+			isa = PBXGroup;
+			children = (
+				3F0F67631E858D2D0057A45B /* Hospet */,
+				3F0F67621E858D2D0057A45B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0F67621E858D2D0057A45B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F67611E858D2D0057A45B /* Hospet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0F67631E858D2D0057A45B /* Hospet */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F67791E858D540057A45B /* Supporting files */,
+				3F0F67661E858D2D0057A45B /* ViewController.swift */,
+				3F0F67681E858D2D0057A45B /* Main.storyboard */,
+				3F0F676E1E858D2E0057A45B /* Assets.xcassets */,
+				3F0F676B1E858D2D0057A45B /* Hospet.xcdatamodeld */,
+			);
+			path = Hospet;
+			sourceTree = "<group>";
+		};
+		3F0F67791E858D540057A45B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3F0F67641E858D2D0057A45B /* AppDelegate.swift */,
+				3F0F67701E858D2E0057A45B /* LaunchScreen.storyboard */,
+				3F0F67731E858D2E0057A45B /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F0F67601E858D2D0057A45B /* Hospet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0F67761E858D2E0057A45B /* Build configuration list for PBXNativeTarget "Hospet" */;
+			buildPhases = (
+				3F0F675D1E858D2D0057A45B /* Sources */,
+				3F0F675E1E858D2D0057A45B /* Frameworks */,
+				3F0F675F1E858D2D0057A45B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hospet;
+			productName = Hospet;
+			productReference = 3F0F67611E858D2D0057A45B /* Hospet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0F67591E858D2D0057A45B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Enio Abrantes";
+				TargetAttributes = {
+					3F0F67601E858D2D0057A45B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F0F675C1E858D2D0057A45B /* Build configuration list for PBXProject "Hospet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0F67581E858D2D0057A45B;
+			productRefGroup = 3F0F67621E858D2D0057A45B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0F67601E858D2D0057A45B /* Hospet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0F675F1E858D2D0057A45B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F67721E858D2E0057A45B /* LaunchScreen.storyboard in Resources */,
+				3F0F676F1E858D2E0057A45B /* Assets.xcassets in Resources */,
+				3F0F676A1E858D2D0057A45B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0F675D1E858D2D0057A45B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0F676D1E858D2D0057A45B /* Hospet.xcdatamodeld in Sources */,
+				3F0F67671E858D2D0057A45B /* ViewController.swift in Sources */,
+				3F0F67651E858D2D0057A45B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F0F67681E858D2D0057A45B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0F67691E858D2D0057A45B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F0F67701E858D2E0057A45B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F0F67711E858D2E0057A45B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F0F67741E858D2E0057A45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0F67751E858D2E0057A45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0F67771E858D2E0057A45B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hospet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.abrantes.enio.Hospet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F0F67781E858D2E0057A45B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hospet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.abrantes.enio.Hospet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0F675C1E858D2D0057A45B /* Build configuration list for PBXProject "Hospet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F67741E858D2E0057A45B /* Debug */,
+				3F0F67751E858D2E0057A45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0F67761E858D2E0057A45B /* Build configuration list for PBXNativeTarget "Hospet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0F67771E858D2E0057A45B /* Debug */,
+				3F0F67781E858D2E0057A45B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F0F676B1E858D2D0057A45B /* Hospet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F0F676C1E858D2D0057A45B /* Hospet.xcdatamodel */,
+			);
+			currentVersion = 3F0F676C1E858D2D0057A45B /* Hospet.xcdatamodel */;
+			path = Hospet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F0F67591E858D2D0057A45B /* Project object */;
+}
